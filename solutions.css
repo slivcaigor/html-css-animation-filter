@@ -73,7 +73,7 @@
   border-radius: 20px;
 }
 
-/* Esercizio 98 */
+/* Esercizio 9 */
 .ex-9-img {
   transition: 2s;
 }
@@ -83,4 +83,15 @@
   filter: grayscale(0.6);
   border-radius: 20px;
   transform: scale(1.5);
+}
+
+/* Esercizio 10 */
+.ex-10-icon {
+  animation: loop 1s linear infinite;
+}
+
+@keyframes loop {
+  to {
+    transform: rotate(-360deg);
+  }
 }
