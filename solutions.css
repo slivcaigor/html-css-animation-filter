@@ -72,3 +72,15 @@
   filter: grayscale(0.6);
   border-radius: 20px;
 }
+
+/* Esercizio 98 */
+.ex-9-img {
+  transition: 2s;
+}
+
+.ex-9-img:hover {
+  filter: brightness(150%);
+  filter: grayscale(0.6);
+  border-radius: 20px;
+  transform: scale(1.5);
+}
