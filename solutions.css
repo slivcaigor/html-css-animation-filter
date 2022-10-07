@@ -95,3 +95,22 @@
     transform: rotate(-360deg);
   }
 }
+
+/* Esercizio 11 */
+.ex-11-icon:hover {
+  animation: looped 2s linear;
+}
+
+@keyframes looped {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  80% {
+    transform: rotate(300deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
