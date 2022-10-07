@@ -114,3 +114,40 @@
     transform: rotate(0deg);
   }
 }
+
+/* Esercizio 12 */
+.ex-12-button:hover .ex-12-top-white {
+  animation: btn1 2s linear;
+}
+
+@keyframes btn1 {
+  0% {
+    left: 20px;
+  }
+
+  50% {
+    left: calc(100% - 60px);
+  }
+
+  100% {
+    left: 20px;
+  }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: btn2 2s linear;
+}
+
+@keyframes btn2 {
+  0% {
+    right: 40px;
+  }
+
+  50% {
+    right: calc(100% - 60px);
+  }
+
+  100% {
+    right: 40px;
+  }
+}
